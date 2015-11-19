@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Yi Yang</title>
+
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="http//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+        <!-- BACKGROUND VIDEO -->
+        <video autoplay loop poster="images/bokeh-loop.png" id="bgvid">
+            <source src="images/bokeh-loop.webm" type="video/webm">
+            <source src="images/bokeh-loop.mp4" type="video/mp4">
+        </video>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Homepage</a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="sample.html">Work Samples</a></li>
+        <li><a href="skill.html">Skills Highlight</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Real Portfolio<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.yangyidesign.com/">My Real Portfolio I</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.yiyangdesign.com/">My Real Portfolio II</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+        <!-- HEADER -->
+        <header>
+            <h1>Yi Yang</h1>
+            <p class="tagline">Multimedia/UX Designer.</p>
+        </header>
+
+        <!-- Intro -->
+        <article id="bio">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class='img-circle' src="images/creative.jpg" alt="Yi Yang">
+                    </div>
+                      <div class="col-md-8">
+                        <h2>I love CREATIVE work</h2>
+                        <p>With two majors, Journalism and Digital Media Design, in my undergraduate, I was thirsty to learn the ability of telling an engaging story no matter if it is a series of  photos or a 30 minute documentary. Therefore, I have completed various courses and internships, which were incredibly nurturing and enables me to develop various skills, like design, reporting and photography, whilst gaining insights into the ways creative industries works.</p>
+                        <p>Due to this huge passion for media, I received my first M.S. degree in Telecommunications from Indiana University, Bloomington. It was a stepping-stone to, building on my existing abilities and emboldening me to take the leap and make a beautiful transition.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- WORK -->
+        <article id="work">
+            <div class="container">
+                <h2>Work Samples</h2>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-1" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/killer_jellyfish_poster.jpg" alt="Jellyfish"> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-2" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/mag-covers.jpg" alt="Magazine"> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-3" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/poster.jpg" alt="Poster"> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-4" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/mag-covers.jpg" alt="Magazine"> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-5" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/killer_jellyfish_poster.jpg" alt="Jellyfish"> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div id="work-6" class="work-item"></div>
+                        <!-- <img class="img-responsive" src="images/poster-2.jpg" alt="Poster"> -->
+                    </div>
+
+                </div> <!-- .row -->
+
+
+            </div>
+        </article>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Backstretch Plugin -->
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script>
+        $("#work-1").backstretch("http://static.wixstatic.com/media/174ce9_90eca833b1a146ab978ce5b901369a86.jpg_srb_p_696_557_75_22_0.50_1.20_0.00_jpg_srb");
+        $("#work-2").backstretch("http://static.wixstatic.com/media/174ce9_8d829afc6c36468598086bfc79356545.jpg_srb_p_944_557_75_22_0.50_1.20_0.00_jpg_srb");
+        $("#work-3").backstretch("http://static.wixstatic.com/media/174ce9_c63973754f694e85bdf6ddc0f5d74637.jpg_srb_p_940_557_75_22_0.50_1.20_0.00_jpg_srb");
+        $("#work-4").backstretch("http://static.wixstatic.com/media/174ce9_086228dd27164b1596350b29709e8144.jpeg_srb_p_600_557_75_22_0.50_1.20_0.00_jpeg_srb");
+        $("#work-5").backstretch("http://static.wixstatic.com/media/174ce9_c06e405efcfa498eba6f392d2de597f4.png_srb_p_640_381_75_22_0.50_1.20_0.00_png_srb");
+        $("#work-6").backstretch("http://static.wixstatic.com/media/174ce9_49738af7788445f38d3e532bc2ee1a91.jpeg_srb_p_600_557_75_22_0.50_1.20_0.00_jpeg_srb");
+    </script>
+
+    <footer class="footer-distributed">
+
+
+    			<div class="footer-left">
+
+    				<p class="footer-links">
+    					<a href="index.html">Homepage</a>
+    					·
+    					<a href="sample.html">Work Samples</a>
+    					·
+    					<a href="skill.html">Skills Highlight</a>
+    					·
+    					<a href="index.html">About Me</a>
+    					·
+    					<a href="contact.html">Contact</a>
+    				</p>
+
+    				<p>ALL CONTENT © YI YANG 2015</p>
+    			</div>
+
+    		</footer>
+
+
+  </body>
+</html>
